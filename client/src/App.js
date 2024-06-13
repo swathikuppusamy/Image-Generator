@@ -1,7 +1,8 @@
-
+import styled, { ThemeProvider } from "styled-components";
+import { darkTheme } from "./utils/themes";
 
 function App() {
-  return <h1>Hello</h1>;
+  return <ThemeProvider theme={darkTheme}>Hello</ThemeProvider>;
 }
 
 export default App;
