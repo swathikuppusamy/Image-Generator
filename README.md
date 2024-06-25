@@ -1,1 +1,1 @@
-# 3D-Image-Generator
+# Text to Image Generator
